@@ -1230,7 +1230,7 @@ sub get_utm5_users {
     '3.ADDRESS_FLAT'    => 'flat_number',
     '3.ADDRESS_STREET'  => 'IF(t12.street!=\'\', t12.street, \'\')',
     '3.ADDRESS_BUILD'   => 'IF(t12.number!=\'\', t12.number, \'\')',
-    '3.COMMENTS'        => 'ua.comments',
+    '3.COMMENTS'        => 'u.comments',
 
     #  '3.CONTRACT_ID'       => '',
     '3.EMAIL'           => 'IF(u.email!=\'\', u.email, \'\')',
